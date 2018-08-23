@@ -806,17 +806,17 @@ design rules under a new name.</description>
 </signal>
 <signal name="PB3">
 <contactref element="U$2" pad="P$2"/>
-<contactref element="R3" pad="2"/>
 <contactref element="J2" pad="3"/>
+<contactref element="R4" pad="2"/>
 <wire x1="132.08" y1="54.61" x2="129.54" y2="57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="109.705" y1="62.23" x2="132.08" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="69.065" y1="50.8" x2="129.54" y2="57.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PB4">
 <contactref element="U$2" pad="P$3"/>
-<contactref element="R4" pad="2"/>
 <contactref element="J2" pad="2"/>
-<wire x1="69.065" y1="50.8" x2="132.08" y2="57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="129.54" y1="54.61" x2="69.065" y2="50.8" width="0" layer="19" extent="1-1"/>
+<contactref element="R3" pad="2"/>
+<wire x1="129.54" y1="54.61" x2="132.08" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="109.705" y1="62.23" x2="129.54" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET">
 <contactref element="U$2" pad="P$1"/>
@@ -832,27 +832,27 @@ design rules under a new name.</description>
 <contactref element="R2" pad="1"/>
 <wire x1="23.645" y1="49.53" x2="29.21" y2="68.58" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$2">
-<contactref element="R4" pad="1"/>
-<contactref element="J3" pad="D+"/>
-<contactref element="D2" pad="C"/>
-<contactref element="R1" pad="1"/>
-<wire x1="65.555" y1="57.15" x2="95.44" y2="87.61" width="0" layer="19" extent="1-1"/>
-<wire x1="65.555" y1="50.8" x2="65.555" y2="57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="24.25" y1="66.04" x2="65.555" y2="57.15" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$3">
-<contactref element="R3" pad="1"/>
-<contactref element="J3" pad="D-"/>
-<contactref element="D1" pad="C"/>
-<wire x1="106.195" y1="62.23" x2="97.4212" y2="87.61" width="0" layer="19" extent="1-1"/>
-<wire x1="24.25" y1="60.96" x2="97.4212" y2="87.61" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="N$4">
 <wire x1="76.2" y1="77.47" x2="144.78" y2="77.47" width="0.1524" layer="1"/>
 <wire x1="144.78" y1="77.47" x2="144.78" y2="45.72" width="0.1524" layer="1"/>
 <wire x1="144.78" y1="45.72" x2="76.2" y2="45.72" width="0.1524" layer="1"/>
 <wire x1="76.2" y1="45.72" x2="76.2" y2="77.47" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$5">
+<contactref element="J3" pad="D-"/>
+<contactref element="R3" pad="1"/>
+<contactref element="D2" pad="C"/>
+<contactref element="R1" pad="1"/>
+<wire x1="106.195" y1="62.23" x2="97.4212" y2="87.61" width="0" layer="19" extent="1-1"/>
+<wire x1="65.555" y1="57.15" x2="106.195" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="24.25" y1="66.04" x2="65.555" y2="57.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="J3" pad="D+"/>
+<contactref element="R4" pad="1"/>
+<contactref element="D1" pad="C"/>
+<wire x1="65.555" y1="50.8" x2="95.44" y2="87.61" width="0" layer="19" extent="1-1"/>
+<wire x1="24.25" y1="60.96" x2="65.555" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

@@ -756,17 +756,8 @@ design rules under a new name.</description>
 <element name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M" x="5.08" y="-10.16">
 <attribute name="PROD_ID" value="RES-09559" x="5.08" y="-10.16" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M" x="5.08" y="-13.97">
-<attribute name="PROD_ID" value="RES-09559" x="5.08" y="-13.97" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M" x="5.08" y="-17.78">
-<attribute name="PROD_ID" value="RES-09559" x="5.08" y="-17.78" size="1.778" layer="27" display="off"/>
-</element>
 <element name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M" x="5.08" y="-21.59">
 <attribute name="PROD_ID" value="RES-09559" x="5.08" y="-21.59" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M" x="5.08" y="-25.4">
-<attribute name="PROD_ID" value="RES-09559" x="5.08" y="-25.4" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
