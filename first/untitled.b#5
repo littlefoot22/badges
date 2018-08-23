@@ -3,7 +3,7 @@
 <eagle version="9.1.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -152,23 +152,146 @@
 <wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
-<library name="whatamIdoing">
+<library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
+<description>&lt;h3&gt;SparkFun Capacitors&lt;/h3&gt;
+This library contains capacitors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="DIP8">
-<wire x1="-8.89" y1="6.35" x2="-1.27" y2="6.35" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="6.35" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-3.81" x2="-8.89" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-8.89" y1="-3.81" x2="-8.89" y2="6.35" width="0.127" layer="21"/>
-<pad name="P$1" x="-10.16" y="5.08" drill="0.6" shape="square"/>
-<pad name="P$2" x="-10.16" y="2.54" drill="0.6" shape="square"/>
-<pad name="P$3" x="-10.16" y="0" drill="0.6" shape="square"/>
-<pad name="P$4" x="-10.16" y="-2.54" drill="0.6" shape="square"/>
-<pad name="P$5" x="0" y="-2.54" drill="0.6" shape="square"/>
-<pad name="P$6" x="0" y="0" drill="0.6" shape="square"/>
-<pad name="P$7" x="0" y="2.54" drill="0.6" shape="square"/>
-<pad name="P$8" x="0" y="5.08" drill="0.6" shape="square"/>
+<package name="0402" urn="urn:adsk.eagle:footprint:37389/1" library_version="1">
+<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
+<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
+<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="0402" urn="urn:adsk.eagle:package:37413/1" type="box" library_version="1">
+<description>Generic 1005 (0402) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="0402"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
+<description>&lt;h3&gt;SparkFun Discrete Semiconductors&lt;/h3&gt;
+This library contains diodes, optoisolators, TRIACs, MOSFETs, transistors, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SOD-323" urn="urn:adsk.eagle:footprint:38400/1" library_version="1">
+<description>SOD-323 (Small Outline Diode)</description>
+<wire x1="-1.77" y1="0.625" x2="-1.77" y2="-0.625" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="0.625" x2="0.9" y2="0.625" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="-0.625" x2="0.9" y2="-0.625" width="0.2032" layer="21"/>
+<smd name="C" x="-1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
+<smd name="A" x="1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="SOD-323" urn="urn:adsk.eagle:package:38441/1" type="box" library_version="1">
+<description>SOD-323 (Small Outline Diode)</description>
+<packageinstances>
+<packageinstance name="SOD-323"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="SparkFun-LED" urn="urn:adsk.eagle:library:529">
+<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
+This library contains discrete LEDs for illumination or indication, but no displays.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="LED_3MM-NS" urn="urn:adsk.eagle:footprint:39310/1" library_version="1">
+<description>&lt;h3&gt;LED 3MM PTH- No Silk&lt;/h3&gt;
+
+3 mm, round, no silk outline of package
+
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.1inch&lt;/li&gt;
+&lt;li&gt;Diameter: 3mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
+<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
+<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="51" curve="-50.193108" cap="flat"/>
+<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="51" curve="-61.926949" cap="flat"/>
+<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="51" curve="49.763022" cap="flat"/>
+<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="51" curve="60.255215" cap="flat"/>
+<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701" cap="flat"/>
+<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822" cap="flat"/>
+<wire x1="1.5748" y1="1.2954" x2="1.5748" y2="0.7874" width="0.254" layer="51"/>
+<wire x1="1.5748" y1="-1.2954" x2="1.5748" y2="-0.8382" width="0.254" layer="51"/>
+<wire x1="1.8923" y1="1.2954" x2="1.8923" y2="0.7874" width="0.254" layer="21"/>
+<wire x1="1.8923" y1="-1.2954" x2="1.8923" y2="-0.8382" width="0.254" layer="21"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128"/>
+<pad name="K" x="1.27" y="0" drill="0.8128"/>
+<text x="0" y="2.286" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="LED_3MM-NS" urn="urn:adsk.eagle:package:39356/1" type="box" library_version="1">
+<description>LED 3MM PTH- No Silk
+
+3 mm, round, no silk outline of package
+
+Specifications:
+Pin count: 2
+Pin pitch: 0.1inch
+Diameter: 3mm
+
+Example device(s):
+LED</description>
+<packageinstances>
+<packageinstance name="LED_3MM-NS"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
@@ -288,41 +411,6 @@ USB_B
 </package3d>
 </packages3d>
 </library>
-<library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
-<description>&lt;h3&gt;SparkFun Discrete Semiconductors&lt;/h3&gt;
-This library contains diodes, optoisolators, TRIACs, MOSFETs, transistors, etc. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SOD-323" urn="urn:adsk.eagle:footprint:38400/1" library_version="1">
-<description>SOD-323 (Small Outline Diode)</description>
-<wire x1="-1.77" y1="0.625" x2="-1.77" y2="-0.625" width="0.2032" layer="21"/>
-<wire x1="-0.9" y1="0.625" x2="0.9" y2="0.625" width="0.2032" layer="21"/>
-<wire x1="-0.9" y1="-0.625" x2="0.9" y2="-0.625" width="0.2032" layer="21"/>
-<smd name="C" x="-1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
-<smd name="A" x="1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOD-323" urn="urn:adsk.eagle:package:38441/1" type="box" library_version="1">
-<description>SOD-323 (Small Outline Diode)</description>
-<packageinstances>
-<packageinstance name="SOD-323"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="SparkFun-Resistors" urn="urn:adsk.eagle:library:532">
 <description>&lt;h3&gt;SparkFun Resistors&lt;/h3&gt;
 This library contains resistors. Reference designator:R. 
@@ -338,135 +426,29 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="1210" urn="urn:adsk.eagle:footprint:39626/1" library_version="1">
-<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
-<wire x1="1.5365" y1="1.1865" x2="1.5365" y2="-1.1865" width="0.127" layer="51"/>
-<wire x1="1.5365" y1="-1.1865" x2="-1.5365" y2="-1.1865" width="0.127" layer="51"/>
-<wire x1="-1.5365" y1="-1.1865" x2="-1.5365" y2="1.1865" width="0.127" layer="51"/>
-<wire x1="-2.59" y1="1.45" x2="2.59" y2="1.45" width="0.0508" layer="39"/>
-<wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
-<wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
-<wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
-<smd name="1" x="-1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
-<smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
-<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<package name="AXIAL-0.3" urn="urn:adsk.eagle:footprint:39622/1" library_version="1">
+<description>&lt;h3&gt;AXIAL-0.3&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.&lt;/p&gt;</description>
+<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
+<pad name="P$1" x="-3.81" y="0" drill="0.9" diameter="1.8796"/>
+<pad name="P$2" x="3.81" y="0" drill="0.9" diameter="1.8796"/>
+<text x="0" y="1.016" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="1210" urn="urn:adsk.eagle:package:39664/1" type="box" library_version="1">
-<description>Generic 3225 (1210) package
-0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<package3d name="AXIAL-0.3" urn="urn:adsk.eagle:package:39658/1" type="box" library_version="1">
+<description>AXIAL-0.3
+Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.</description>
 <packageinstances>
-<packageinstance name="1210"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
-<library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
-<description>&lt;h3&gt;SparkFun Capacitors&lt;/h3&gt;
-This library contains capacitors. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="0402" urn="urn:adsk.eagle:footprint:37389/1" library_version="1">
-<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
-<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
-<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
-<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
-<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
-<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
-<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
-<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="0402" urn="urn:adsk.eagle:package:37413/1" type="box" library_version="1">
-<description>Generic 1005 (0402) package
-0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="0402"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
-<library name="SparkFun-LED" urn="urn:adsk.eagle:library:529">
-<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
-This library contains discrete LEDs for illumination or indication, but no displays.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="LED_3MM-NS" urn="urn:adsk.eagle:footprint:39310/1" library_version="1">
-<description>&lt;h3&gt;LED 3MM PTH- No Silk&lt;/h3&gt;
-
-3 mm, round, no silk outline of package
-
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 0.1inch&lt;/li&gt;
-&lt;li&gt;Diameter: 3mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
-<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="51" curve="-50.193108" cap="flat"/>
-<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="51" curve="-61.926949" cap="flat"/>
-<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="51" curve="49.763022" cap="flat"/>
-<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="51" curve="60.255215" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822" cap="flat"/>
-<wire x1="1.5748" y1="1.2954" x2="1.5748" y2="0.7874" width="0.254" layer="51"/>
-<wire x1="1.5748" y1="-1.2954" x2="1.5748" y2="-0.8382" width="0.254" layer="51"/>
-<wire x1="1.8923" y1="1.2954" x2="1.8923" y2="0.7874" width="0.254" layer="21"/>
-<wire x1="1.8923" y1="-1.2954" x2="1.8923" y2="-0.8382" width="0.254" layer="21"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128"/>
-<pad name="K" x="1.27" y="0" drill="0.8128"/>
-<text x="0" y="2.286" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="LED_3MM-NS" urn="urn:adsk.eagle:package:39356/1" type="box" library_version="1">
-<description>LED 3MM PTH- No Silk
-
-3 mm, round, no silk outline of package
-
-Specifications:
-Pin count: 2
-Pin pitch: 0.1inch
-Diameter: 3mm
-
-Example device(s):
-LED</description>
-<packageinstances>
-<packageinstance name="LED_3MM-NS"/>
+<packageinstance name="AXIAL-0.3"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -528,6 +510,24 @@ Datasheet (B3F-1000)</description>
 </packageinstances>
 </package3d>
 </packages3d>
+</library>
+<library name="whatamIdoing">
+<packages>
+<package name="DIP8">
+<wire x1="-8.89" y1="6.35" x2="-1.27" y2="6.35" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="6.35" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-3.81" x2="-8.89" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-3.81" x2="-8.89" y2="6.35" width="0.127" layer="21"/>
+<pad name="P$1" x="-10.16" y="5.08" drill="0.6" shape="square"/>
+<pad name="P$2" x="-10.16" y="2.54" drill="0.6" shape="square"/>
+<pad name="P$3" x="-10.16" y="0" drill="0.6" shape="square"/>
+<pad name="P$4" x="-10.16" y="-2.54" drill="0.6" shape="square"/>
+<pad name="P$5" x="0" y="-2.54" drill="0.6" shape="square"/>
+<pad name="P$6" x="0" y="0" drill="0.6" shape="square"/>
+<pad name="P$7" x="0" y="2.54" drill="0.6" shape="square"/>
+<pad name="P$8" x="0" y="5.08" drill="0.6" shape="square"/>
+</package>
+</packages>
 </library>
 </libraries>
 <attributes>
@@ -722,78 +722,137 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="whatamIdoing" package="DIP8" value="ATINY85" x="-13.97" y="5.08"/>
-<element name="U$2" library="whatamIdoing" package="DIP8" value="ATINY85" x="-13.97" y="-7.62"/>
-<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04" package3d_urn="urn:adsk.eagle:package:38085/1" value="" x="-22.86" y="-13.97">
-<attribute name="PROD_ID" value="CONN-09696" x="-22.86" y="-13.97" size="1.778" layer="27" display="off"/>
+<element name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.8pF" x="25.4" y="69.85">
+<attribute name="PROD_ID" value="CAP-13456" x="25.4" y="69.85" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04" package3d_urn="urn:adsk.eagle:package:38085/1" value="" x="-22.86" y="-17.78">
-<attribute name="PROD_ID" value="CONN-09696" x="-22.86" y="-17.78" size="1.778" layer="27" display="off"/>
+<element name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="SOD-323" package3d_urn="urn:adsk.eagle:package:38441/1" value="3.6V" x="25.4" y="60.96">
+<attribute name="PROD_ID" value="DIO-08199" x="25.4" y="60.96" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="SOD-323" package3d_urn="urn:adsk.eagle:package:38441/1" value="3.6V" x="-22.86" y="-21.59">
-<attribute name="PROD_ID" value="DIO-08199" x="-22.86" y="-21.59" size="1.778" layer="27" display="off"/>
+<element name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="SOD-323" package3d_urn="urn:adsk.eagle:package:38441/1" value="3.6V" x="25.4" y="66.04">
+<attribute name="PROD_ID" value="DIO-08199" x="25.4" y="66.04" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="SOD-323" package3d_urn="urn:adsk.eagle:package:38441/1" value="3.6V" x="-22.86" y="-25.4">
-<attribute name="PROD_ID" value="DIO-08199" x="-22.86" y="-25.4" size="1.778" layer="27" display="off"/>
+<element name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED_3MM-NS" package3d_urn="urn:adsk.eagle:package:39356/1" value="" x="87.63" y="68.58"/>
+<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04" package3d_urn="urn:adsk.eagle:package:38085/1" value="" x="127" y="69.85">
+<attribute name="PROD_ID" value="CONN-09696" x="127" y="69.85" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="1210" package3d_urn="urn:adsk.eagle:package:39664/1" value="0.1" x="-21.59" y="-30.48">
-<attribute name="PROD_ID" value="RES-12374" x="-21.59" y="-30.48" size="1.778" layer="27" display="off"/>
+<element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04" package3d_urn="urn:adsk.eagle:package:38085/1" value="" x="127" y="54.61">
+<attribute name="PROD_ID" value="CONN-09696" x="127" y="54.61" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="1210" package3d_urn="urn:adsk.eagle:package:39664/1" value="0.1" x="-21.59" y="-35.56">
-<attribute name="PROD_ID" value="RES-12374" x="-21.59" y="-35.56" size="1.778" layer="27" display="off"/>
+<element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="USB-B-PTH" package3d_urn="urn:adsk.eagle:package:38301/1" value="USB_B_PTH" x="96.52" y="86.36">
+<attribute name="PROD_ID" value="CONN-08278" x="96.52" y="86.36" size="1.778" layer="27" display="off"/>
+<attribute name="SF_ID" value="PRT-00139" x="96.52" y="86.36" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="1210" package3d_urn="urn:adsk.eagle:package:39664/1" value="0.1" x="-21.59" y="-40.64">
-<attribute name="PROD_ID" value="RES-12374" x="-21.59" y="-40.64" size="1.778" layer="27" display="off"/>
+<element name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="TACTILE_SWITCH_PTH_6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1" value="MOMENTARY-SWITCH-SPST-PTH-6.0MM" x="119.38" y="62.23">
+<attribute name="PROD_ID" value=" SWCH-08441" x="119.38" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="SF_SKU" value="COM-00097" x="119.38" y="62.23" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="1210" package3d_urn="urn:adsk.eagle:package:39664/1" value="0.1" x="-21.59" y="-45.72">
-<attribute name="PROD_ID" value="RES-12374" x="-21.59" y="-45.72" size="1.778" layer="27" display="off"/>
+<element name="U$2" library="whatamIdoing" package="DIP8" value="ATINY85" x="132.08" y="67.31" rot="R90"/>
+<element name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M" x="104.14" y="54.61">
+<attribute name="PROD_ID" value="RES-09559" x="104.14" y="54.61" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.8pF" x="-22.86" y="-50.8">
-<attribute name="PROD_ID" value="CAP-13456" x="-22.86" y="-50.8" size="1.778" layer="27" display="off"/>
+<element name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M" x="105.41" y="60.96">
+<attribute name="PROD_ID" value="RES-09559" x="105.41" y="60.96" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED_3MM-NS" package3d_urn="urn:adsk.eagle:package:39356/1" value="" x="-27.94" y="-48.26"/>
-<element name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="TACTILE_SWITCH_PTH_6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1" value="MOMENTARY-SWITCH-SPST-PTH-6.0MM" x="-25.4" y="-57.15">
-<attribute name="PROD_ID" value=" SWCH-08441" x="-25.4" y="-57.15" size="1.778" layer="27" display="off"/>
-<attribute name="SF_SKU" value="COM-00097" x="-25.4" y="-57.15" size="1.778" layer="27" display="off"/>
+<element name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M" x="102.87" y="71.12">
+<attribute name="PROD_ID" value="RES-09559" x="102.87" y="71.12" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="USB-B-PTH" package3d_urn="urn:adsk.eagle:package:38301/1" value="USB_B_PTH" x="-24.13" y="-69.85">
-<attribute name="PROD_ID" value="CONN-08278" x="-24.13" y="-69.85" size="1.778" layer="27" display="off"/>
-<attribute name="SF_ID" value="PRT-00139" x="-24.13" y="-69.85" size="1.778" layer="27" display="off"/>
+<element name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M" x="105.41" y="49.53">
+<attribute name="PROD_ID" value="RES-09559" x="105.41" y="49.53" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
-<signal name="VBUS">
-<contactref element="J3" pad="VBUS"/>
-</signal>
-<signal name="GND">
-<contactref element="J3" pad="GND"/>
-<contactref element="U$2" pad="P$4"/>
-<contactref element="C1" pad="2"/>
-<wire x1="-22.28" y1="-50.8" x2="-20.13" y2="-71.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.13" y1="-10.16" x2="-22.28" y2="-50.8" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="VCC">
 <contactref element="U$2" pad="P$8"/>
 <contactref element="C1" pad="1"/>
-<wire x1="-13.97" y1="-2.54" x2="-23.44" y2="-50.8" width="0" layer="19" extent="1-1"/>
+<contactref element="J1" pad="1"/>
+<contactref element="J3" pad="VBUS"/>
+<contactref element="R5" pad="P$2"/>
+<contactref element="R6" pad="P$2"/>
+<wire x1="127" y1="67.31" x2="127" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="102.5012" y1="85.11" x2="127" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="24.82" y1="69.85" x2="102.5012" y2="85.11" width="0" layer="19" extent="1-1"/>
+<wire x1="107.95" y1="54.61" x2="24.82" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="109.22" y1="60.96" x2="107.95" y2="54.61" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GND">
+<contactref element="U$2" pad="P$4"/>
+<contactref element="C1" pad="2"/>
+<contactref element="S1" pad="3"/>
+<contactref element="D2" pad="A"/>
+<contactref element="D1" pad="A"/>
+<contactref element="J3" pad="GND"/>
+<contactref element="J2" pad="1"/>
+<wire x1="127" y1="54.61" x2="134.62" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="116.1288" y1="59.9694" x2="127" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="100.52" y1="85.11" x2="116.1288" y2="59.9694" width="0" layer="19" extent="1-1"/>
+<wire x1="25.98" y1="69.85" x2="100.52" y2="85.11" width="0" layer="19" extent="1-1"/>
+<wire x1="26.55" y1="66.04" x2="25.98" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="26.55" y1="60.96" x2="26.55" y2="66.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PB0">
 <contactref element="U$2" pad="P$5"/>
+<contactref element="J1" pad="4"/>
+<wire x1="134.62" y1="69.85" x2="134.62" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PB1">
 <contactref element="U$2" pad="P$6"/>
+<contactref element="J1" pad="3"/>
+<wire x1="132.08" y1="69.85" x2="132.08" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PB2">
 <contactref element="U$2" pad="P$7"/>
+<contactref element="J1" pad="2"/>
+<wire x1="129.54" y1="69.85" x2="129.54" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PB3">
 <contactref element="U$2" pad="P$2"/>
+<contactref element="J2" pad="3"/>
+<contactref element="R10" pad="P$2"/>
+<wire x1="132.08" y1="54.61" x2="129.54" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="109.22" y1="49.53" x2="129.54" y2="57.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PB4">
 <contactref element="U$2" pad="P$3"/>
+<contactref element="J2" pad="2"/>
+<contactref element="R7" pad="P$2"/>
+<wire x1="129.54" y1="54.61" x2="132.08" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="106.68" y1="71.12" x2="129.54" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET">
 <contactref element="U$2" pad="P$1"/>
+<contactref element="S1" pad="1"/>
+<contactref element="D3" pad="K"/>
+<contactref element="J2" pad="4"/>
+<wire x1="88.9" y1="68.58" x2="127" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="116.1288" y1="64.4906" x2="88.9" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="134.62" y1="54.61" x2="116.1288" y2="64.4906" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="D3" pad="A"/>
+<contactref element="R5" pad="P$1"/>
+<wire x1="100.33" y1="54.61" x2="86.36" y2="68.58" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<wire x1="76.2" y1="77.47" x2="144.78" y2="77.47" width="0.1524" layer="1"/>
+<wire x1="144.78" y1="77.47" x2="144.78" y2="45.72" width="0.1524" layer="1"/>
+<wire x1="144.78" y1="45.72" x2="76.2" y2="45.72" width="0.1524" layer="1"/>
+<wire x1="76.2" y1="45.72" x2="76.2" y2="77.47" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$5">
+<contactref element="J3" pad="D-"/>
+<contactref element="D2" pad="C"/>
+<contactref element="R6" pad="P$1"/>
+<contactref element="R7" pad="P$1"/>
+<wire x1="24.25" y1="66.04" x2="102.5012" y2="87.61" width="0" layer="19" extent="1-1"/>
+<wire x1="101.6" y1="60.96" x2="24.25" y2="66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="99.06" y1="71.12" x2="101.6" y2="60.96" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="J3" pad="D+"/>
+<contactref element="D1" pad="C"/>
+<contactref element="R10" pad="P$1"/>
+<wire x1="24.25" y1="60.96" x2="100.52" y2="87.61" width="0" layer="19" extent="1-1"/>
+<wire x1="101.6" y1="49.53" x2="24.25" y2="60.96" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
