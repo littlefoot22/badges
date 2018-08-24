@@ -1439,15 +1439,78 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
-<package name="PANASONIC_SMINI2-F5-B" urn="urn:adsk.eagle:footprint:38404/1" library_version="1">
-<description>From http://www.semicon.panasonic.co.jp/ds4/DZ2J150_E.pdf</description>
-<wire x1="-1.897" y1="0.625" x2="-1.897" y2="-0.625" width="0.2032" layer="21"/>
-<wire x1="-0.85" y1="0.625" x2="0.85" y2="0.625" width="0.127" layer="21"/>
-<wire x1="-0.85" y1="-0.625" x2="0.85" y2="-0.625" width="0.127" layer="21"/>
-<smd name="C" x="-1.2" y="0" dx="0.9" dy="1.1" layer="1"/>
-<smd name="A" x="1.2" y="0" dx="0.9" dy="0.9" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<package name="DIODE-1N4001" urn="urn:adsk.eagle:footprint:38418/1" library_version="1">
+<wire x1="3.175" y1="1.27" x2="1.905" y2="1.27" width="0.254" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="-3.175" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.175" y2="0" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="0" x2="-3.175" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="3.175" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="3.175" y2="0" width="0.254" layer="21"/>
+<wire x1="3.175" y1="0" x2="3.175" y2="1.27" width="0.254" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="0" x2="-3.81" y2="0" width="0.254" layer="21"/>
+<wire x1="3.175" y1="0" x2="3.81" y2="0" width="0.254" layer="21"/>
+<pad name="A" x="-5.08" y="0" drill="1" diameter="1.9812"/>
+<pad name="C" x="5.08" y="0" drill="1" diameter="1.9812"/>
+<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+<package name="DIODE-1N4148" urn="urn:adsk.eagle:footprint:38419/1" library_version="1">
+<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="0.635" x2="1.905" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="A" x="-3.81" y="0" drill="0.9" diameter="1.8796"/>
+<pad name="C" x="3.81" y="0" drill="0.9" diameter="1.8796"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+<package name="DIODE-1N4148-KIT" urn="urn:adsk.eagle:footprint:38420/1" library_version="1">
+<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="0.635" x2="1.905" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="A" x="-3.81" y="0" drill="0.9" diameter="1.8796" stop="no"/>
+<pad name="C" x="3.81" y="0" drill="0.9" diameter="1.8796" stop="no"/>
+<circle x="-3.81" y="0" radius="0.4572" width="0" layer="29"/>
+<circle x="-3.81" y="0" radius="0.9398" width="0" layer="30"/>
+<circle x="-3.81" y="0" radius="0.4572" width="0" layer="29"/>
+<circle x="3.81" y="0" radius="0.4572" width="0" layer="29"/>
+<circle x="3.81" y="0" radius="0.9398" width="0" layer="30"/>
+<text x="0" y="1.27" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+<package name="DIODE-1N4001-KIT" urn="urn:adsk.eagle:footprint:38421/1" library_version="1">
+<wire x1="3.175" y1="1.27" x2="1.905" y2="1.27" width="0.254" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="-3.175" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.175" y2="0" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="0" x2="-3.175" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="3.175" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="3.175" y2="0" width="0.254" layer="21"/>
+<wire x1="3.175" y1="0" x2="3.175" y2="1.27" width="0.254" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="0" x2="-3.81" y2="0" width="0.254" layer="21"/>
+<wire x1="3.175" y1="0" x2="3.81" y2="0" width="0.254" layer="21"/>
+<pad name="A" x="-5.08" y="0" drill="1.016" diameter="1.8796" stop="no"/>
+<pad name="C" x="5.08" y="0" drill="1.016" diameter="1.8796" stop="no"/>
+<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<circle x="-5.08" y="0" radius="0.508" width="0" layer="29"/>
+<circle x="5.08" y="0" radius="0.508" width="0" layer="29"/>
+<circle x="-5.08" y="0" radius="0.9906" width="0" layer="30"/>
+<circle x="5.08" y="0" radius="0.9906" width="0" layer="30"/>
 </package>
 </packages>
 <packages3d>
@@ -1457,28 +1520,39 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packageinstance name="SOD-323"/>
 </packageinstances>
 </package3d>
-<package3d name="PANASONIC_SMINI2-F5-B" urn="urn:adsk.eagle:package:38444/1" type="box" library_version="1">
-<description>From http://www.semicon.panasonic.co.jp/ds4/DZ2J150_E.pdf</description>
+<package3d name="DIODE-1N4001" urn="urn:adsk.eagle:package:38453/1" type="box" library_version="1">
 <packageinstances>
-<packageinstance name="PANASONIC_SMINI2-F5-B"/>
+<packageinstance name="DIODE-1N4001"/>
+</packageinstances>
+</package3d>
+<package3d name="DIODE-1N4148" urn="urn:adsk.eagle:package:38452/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="DIODE-1N4148"/>
+</packageinstances>
+</package3d>
+<package3d name="DIODE-1N4148-KIT" urn="urn:adsk.eagle:package:38454/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="DIODE-1N4148-KIT"/>
+</packageinstances>
+</package3d>
+<package3d name="DIODE-1N4001-KIT" urn="urn:adsk.eagle:package:38455/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="DIODE-1N4001-KIT"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="DIODE-ZENER" urn="urn:adsk.eagle:symbol:38403/1" library_version="1">
-<description>&lt;h3&gt;Zener Diode&lt;/h3&gt;
-Allows current flow in one direction, but allows reverse flow when above breakdown voltage.</description>
-<wire x1="1.27" y1="0.889" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-0.889" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.889" x2="1.778" y2="1.397" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-0.889" x2="0.762" y2="-1.397" width="0.1524" layer="94"/>
+<symbol name="DIODE" urn="urn:adsk.eagle:symbol:38417/1" library_version="1">
+<description>Conventional Si diode</description>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
 <text x="-2.54" y="2.032" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="-2.54" y="-2.032" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 <pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-<polygon width="0.254" layer="94">
+<polygon width="0.1524" layer="94">
 <vertex x="-1.27" y="1.27"/>
 <vertex x="1.27" y="0"/>
 <vertex x="-1.27" y="-1.27"/>
@@ -1486,14 +1560,33 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DIODE-ZENER" urn="urn:adsk.eagle:component:38465/1" prefix="D" library_version="1">
-<description>&lt;h3&gt;Zener Diode&lt;/h3&gt;
-&lt;p&gt;A Zener diode allows current to flow from its anode to its cathode like a normal semiconductor diode, but it also permits current to flow in the reverse direction when its "Zener voltage" is reached. - WIkipedia&lt;/p&gt;</description>
+<deviceset name="DIODE" urn="urn:adsk.eagle:component:38480/1" prefix="D" library_version="1">
+<description>&lt;h3&gt;Diode&lt;/h3&gt;
+&lt;p&gt;These are standard reverse protection diodes and small signal diodes.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/11177”&gt;SparkFun SparkPunk Sound Kit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13231”&gt;SparkFun ESP8266 Thing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="DIODE-ZENER" x="0" y="0"/>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-MM3Z3V3T1G" package="SOD-323">
+<device name="-PTH" package="DIODE-1N4001">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38453/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09176"/>
+<attribute name="VALUE" value="1A/50V/1.1V"/>
+</technology>
+</technologies>
+</device>
+<device name="-BAS16J" package="SOD-323">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
@@ -1503,53 +1596,53 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="DIO-11284"/>
-<attribute name="VALUE" value="3.3V"/>
+<attribute name="PROD_ID" value="DIO-09646"/>
+<attribute name="VALUE" value="250mA/100V"/>
 </technology>
 </technologies>
 </device>
-<device name="-MMSZ5232BS" package="SOD-323">
+<device name="-1N4148" package="DIODE-1N4148">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38441/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38452/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="DIO-12442"/>
-<attribute name="VALUE" value="5.6V"/>
+<attribute name="PROD_ID" value="DIO-08378"/>
+<attribute name="VALUE" value="200mA/100V/1V"/>
 </technology>
 </technologies>
 </device>
-<device name="-DZ2J150M0L" package="PANASONIC_SMINI2-F5-B">
+<device name="-KIT" package="DIODE-1N4148-KIT">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38444/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38454/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="DIO-12989"/>
-<attribute name="VALUE" value="15V"/>
+<attribute name="PROD_ID" value="DIO-08378"/>
+<attribute name="VALUE" value="200mA/100V/1V"/>
 </technology>
 </technologies>
 </device>
-<device name="-BZT52C3V6S" package="SOD-323">
+<device name="-KIT2" package="DIODE-1N4001-KIT">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38441/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38455/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="DIO-08199" constant="no"/>
-<attribute name="VALUE" value="3.6V" constant="no"/>
+<attribute name="PROD_ID" value="DIO-09176"/>
+<attribute name="VALUE" value="1A/50V/1.1V"/>
 </technology>
 </technologies>
 </device>
@@ -3336,8 +3429,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$2" library="whatamIdoing" deviceset="ATINY85" device=""/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1"/>
-<part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-BZT52C3V6S" package3d_urn="urn:adsk.eagle:package:38441/1" value="3.6V"/>
-<part name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-BZT52C3V6S" package3d_urn="urn:adsk.eagle:package:38441/1" value="3.6V"/>
 <part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.8PF" device="-0402-50V-0.1PF" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.8pF"/>
 <part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="-3MM-NO_SILK" package3d_urn="urn:adsk.eagle:package:39356/1"/>
 <part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1"/>
@@ -3354,10 +3445,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1MOHM" device="-HORIZ-1/6W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M"/>
 <part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1MOHM" device="-HORIZ-1/6W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M"/>
 <part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1MOHM" device="-HORIZ-1/6W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M"/>
-<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1MOHM" device="-HORIZ-1/6W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M"/>
-<part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1MOHM" device="-HORIZ-1/6W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M"/>
 <part name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1MOHM" device="-HORIZ-1/6W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M"/>
-<part name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1MOHM" device="-HORIZ-1/6W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M"/>
+<part name="D4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value="200mA/100V/1V"/>
+<part name="D5" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value="200mA/100V/1V"/>
 </parts>
 <sheets>
 <sheet>
@@ -3367,8 +3457,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$2" gate="G$1" x="86.36" y="48.26"/>
 <instance part="J1" gate="G$1" x="30.48" y="7.62"/>
 <instance part="J2" gate="G$1" x="30.48" y="-17.78"/>
-<instance part="D1" gate="G$1" x="99.06" y="-38.1" rot="R90"/>
-<instance part="D2" gate="G$1" x="111.76" y="-38.1" rot="R90"/>
 <instance part="C1" gate="G$1" x="48.26" y="48.26"/>
 <instance part="D3" gate="G$1" x="2.54" y="81.28"/>
 <instance part="S1" gate="G$1" x="15.24" y="73.66"/>
@@ -3385,10 +3473,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R5" gate="G$1" x="2.54" y="93.98" rot="R90"/>
 <instance part="R6" gate="G$1" x="106.68" y="-10.16" rot="R90"/>
 <instance part="R7" gate="G$1" x="144.78" y="-22.86"/>
-<instance part="R8" gate="G$1" x="78.74" y="91.44"/>
-<instance part="R9" gate="G$1" x="35.56" y="81.28"/>
 <instance part="R10" gate="G$1" x="129.54" y="-20.32"/>
-<instance part="R11" gate="G$1" x="78.74" y="81.28"/>
+<instance part="D4" gate="G$1" x="99.06" y="-38.1" rot="R90"/>
+<instance part="D5" gate="G$1" x="111.76" y="-38.1" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -3443,13 +3530,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="111.76" y1="-45.72" x2="111.76" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="D5" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="99.06" y1="-45.72" x2="99.06" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -3571,7 +3658,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="J3" gate="G$1" pin="D-"/>
 <wire x1="68.58" y1="-22.86" x2="106.68" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="106.68" y1="-22.86" x2="111.76" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="-22.86" x2="139.7" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="-35.56" x2="111.76" y2="-22.86" width="0.1524" layer="91"/>
@@ -3580,17 +3666,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="106.68" y="-22.86"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="D5" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="D+"/>
 <wire x1="68.58" y1="-20.32" x2="99.06" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="99.06" y1="-20.32" x2="124.46" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="-35.56" x2="99.06" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="99.06" y="-20.32"/>
 <pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="D4" gate="G$1" pin="C"/>
 </segment>
 </net>
 </nets>
