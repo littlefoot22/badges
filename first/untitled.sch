@@ -3942,18 +3942,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="106.68" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="J2" gate="G$1" pin="4"/>
+<wire x1="35.56" y1="-12.7" x2="45.72" y2="-12.7" width="0.1524" layer="91"/>
+<label x="38.1" y="-12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="S1" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="73.66" x2="2.54" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="2.54" y1="73.66" x2="2.54" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="73.66" x2="-5.08" y2="73.66" width="0.1524" layer="91"/>
 <junction x="2.54" y="73.66"/>
-<label x="-5.08" y="73.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="35.56" y1="-12.7" x2="45.72" y2="-12.7" width="0.1524" layer="91"/>
-<label x="38.1" y="-12.7" size="1.778" layer="95"/>
+<label x="-10.16" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
