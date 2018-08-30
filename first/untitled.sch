@@ -3771,7 +3771,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J2" gate="G$1" x="30.48" y="-17.78"/>
 <instance part="D3" gate="G$1" x="2.54" y="81.28"/>
 <instance part="S1" gate="G$1" x="15.24" y="73.66"/>
-<instance part="SUPPLY1" gate="G$1" x="10.16" y="38.1"/>
+<instance part="SUPPLY1" gate="G$1" x="10.16" y="35.56"/>
 <instance part="SUPPLY2" gate="G$1" x="20.32" y="99.06" rot="R270"/>
 <instance part="SUPPLY3" gate="G$1" x="83.82" y="2.54"/>
 <instance part="SUPPLY4" gate="G$1" x="48.26" y="73.66"/>
