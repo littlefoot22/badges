@@ -786,8 +786,8 @@ design rules under a new name.</description>
 <element name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M" x="109.22" y="62.23" rot="R270">
 <attribute name="PROD_ID" value="RES-09559" x="109.22" y="62.23" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M" x="116.84" y="62.23" rot="R90">
-<attribute name="PROD_ID" value="RES-09559" x="116.84" y="62.23" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="1M" x="116.84" y="62.23" rot="R270">
+<attribute name="PROD_ID" value="RES-09559" x="116.84" y="62.23" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="D4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="DIODE-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value="200mA/100V/1V" x="101.6" y="62.23" rot="R90">
 <attribute name="PROD_ID" value="DIO-08378" x="101.6" y="62.23" size="1.778" layer="27" rot="R90" display="off"/>
@@ -853,15 +853,29 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="P$2"/>
 <contactref element="J2" pad="3"/>
 <contactref element="R1" pad="P$2"/>
+<wire x1="107.56763125" y1="58.42" x2="105.41" y2="58.42" width="0.1524" layer="1"/>
+<wire x1="108.73603125" y1="57.2516" x2="107.56763125" y2="58.42" width="0.1524" layer="1"/>
+<wire x1="113.51396875" y1="57.2516" x2="108.73603125" y2="57.2516" width="0.1524" layer="1"/>
+<wire x1="129.3622" y1="61.1378" x2="127.22723125" y2="61.1378" width="0.1524" layer="1"/>
+<wire x1="117.32396875" y1="59.5884" x2="115.85076875" y2="59.5884" width="0.1524" layer="1"/>
+<wire x1="115.85076875" y1="59.5884" x2="113.51396875" y2="57.2516" width="0.1524" layer="1"/>
+<wire x1="118.11136875" y1="58.801" x2="117.32396875" y2="59.5884" width="0.1524" layer="1"/>
+<wire x1="124.89043125" y1="58.801" x2="118.11136875" y2="58.801" width="0.1524" layer="1"/>
+<wire x1="127.22723125" y1="61.1378" x2="124.89043125" y2="58.801" width="0.1524" layer="1"/>
+<wire x1="135.89" y1="54.61" x2="129.3622" y2="61.1378" width="0.1524" layer="1"/>
 <wire x1="135.89" y1="54.61" x2="133.35" y2="57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="105.41" y1="58.42" x2="133.35" y2="57.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PB4">
 <contactref element="U$2" pad="P$3"/>
 <contactref element="J2" pad="2"/>
 <contactref element="R7" pad="P$2"/>
+<wire x1="133.35" y1="54.61" x2="132.4864" y2="55.4736" width="0.1524" layer="1"/>
+<wire x1="132.4864" y1="55.4736" x2="131.77594375" y2="55.4736" width="0.1524" layer="1"/>
+<wire x1="130.88214375" y1="56.3674" x2="130.1613125" y2="56.3674" width="0.1524" layer="1"/>
+<wire x1="131.77594375" y1="55.4736" x2="130.88214375" y2="56.3674" width="0.1524" layer="1"/>
+<wire x1="128.1087125" y1="58.42" x2="116.84" y2="58.42" width="0.1524" layer="1"/>
+<wire x1="130.1613125" y1="56.3674" x2="128.1087125" y2="58.42" width="0.1524" layer="1"/>
 <wire x1="133.35" y1="54.61" x2="135.89" y2="57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="116.84" y1="66.04" x2="133.35" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET">
 <contactref element="U$2" pad="P$1"/>
@@ -894,7 +908,7 @@ design rules under a new name.</description>
 <contactref element="R7" pad="P$1"/>
 <contactref element="D5" pad="C"/>
 <contactref element="J4" pad="D-1"/>
-<wire x1="116.84" y1="58.42" x2="113.03" y2="66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="116.84" y1="66.04" x2="113.03" y2="66.04" width="0" layer="19" extent="1-1"/>
 <wire x1="90.33" y1="62.88" x2="113.03" y2="66.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
