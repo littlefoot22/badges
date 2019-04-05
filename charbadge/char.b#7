@@ -34,7 +34,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="38" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="38" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -5589,7 +5589,6 @@
 <rectangle x1="33.147" y1="44.91558125" x2="34.84118125" y2="45.00041875" layer="21"/>
 <rectangle x1="33.147" y1="45.00041875" x2="34.84118125" y2="45.085" layer="21"/>
 <text x="0" y="-0.42418125" size="0.17018125" layer="21" font="vector">/Users/chrisbuckner/badges/charbadge/char_silk.bmp</text>
-<text x="4.910178125" y="77.462253125" size="0.8128" layer="21">https://github.com/littlefoot22/badges/tree/master/charbadge</text>
 </plain>
 <libraries>
 <library name="_hhn_attiny25_45_85">
@@ -5923,17 +5922,14 @@ design rules under a new name.</description>
 <signal name="VCC">
 <contactref element="U2" pad="8"/>
 <contactref element="R6" pad="P$1"/>
-<wire x1="58.92226875" y1="74.922665625" x2="58.92314375" y2="74.921790625" width="0.1524" layer="1"/>
+<wire x1="58.907" y1="74.937934375" x2="58.92226875" y2="74.922665625" width="0.1524" layer="1"/>
+<wire x1="58.92226875" y1="74.922665625" x2="58.9944" y2="74.850534375" width="0.1524" layer="1"/>
+<wire x1="3.640303125" y1="1.777821875" x2="3.640303125" y2="78.9078" width="0.1524" layer="1"/>
 <wire x1="3.640303125" y1="78.9078" x2="75.43045625" y2="78.9078" width="0.1524" layer="1"/>
-<wire x1="75.43045625" y1="78.9078" x2="75.43045625" y2="74.92250625" width="0.1524" layer="1"/>
-<wire x1="75.43045625" y1="74.92250625" x2="75.43045625" y2="74.83785" width="0.1524" layer="1"/>
+<wire x1="75.43045625" y1="78.9078" x2="75.43045625" y2="74.83785" width="0.1524" layer="1"/>
+<wire x1="75.43045625" y1="74.83785" x2="58.92226875" y2="74.922665625" width="0.1524" layer="1"/>
 <wire x1="75.43045625" y1="74.83785" x2="89.906628125" y2="74.83785" width="0.1524" layer="1"/>
 <wire x1="89.906628125" y1="74.83785" x2="89.991284375" y2="74.92250625" width="0.1524" layer="1"/>
-<wire x1="75.43045625" y1="74.83785" x2="75.43045625" y2="74.83698125" width="0.1524" layer="1"/>
-<wire x1="58.907" y1="74.937934375" x2="75.43045625" y2="74.92250625" width="0.1524" layer="1"/>
-<via x="3.640303125" y="1.777821875" extent="1-16" drill="0.35"/>
-<wire x1="3.640303125" y1="1.777821875" x2="3.640303125" y2="78.9078" width="0.1524" layer="1"/>
-<wire x1="58.907" y1="74.937934375" x2="58.92226875" y2="74.922665625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U2" pad="3"/>
