@@ -2825,7 +2825,6 @@
 <rectangle x1="29.591" y1="101.981" x2="38.735" y2="102.06558125" layer="29"/>
 <rectangle x1="29.591" y1="102.06558125" x2="38.735" y2="102.15041875" layer="29"/>
 <rectangle x1="29.591" y1="102.15041875" x2="38.735" y2="102.235" layer="29"/>
-<text x="0" y="-0.42418125" size="0.17018125" layer="29" font="vector">/Users/chrisbuckner/badges/charbadge/char5in_mask_new_no tail_bmp.bmp</text>
 <rectangle x1="47.54118125" y1="15.45158125" x2="49.657" y2="15.53641875" layer="21"/>
 <rectangle x1="47.54118125" y1="15.53641875" x2="49.657" y2="15.621" layer="21"/>
 <rectangle x1="47.54118125" y1="15.621" x2="49.657" y2="15.70558125" layer="21"/>
@@ -6533,7 +6532,6 @@
 <rectangle x1="21.463" y1="111.20958125" x2="22.90318125" y2="111.29441875" layer="21"/>
 <rectangle x1="21.463" y1="111.29441875" x2="22.90318125" y2="111.379" layer="21"/>
 <rectangle x1="21.463" y1="111.379" x2="22.90318125" y2="111.46358125" layer="21"/>
-<text x="0" y="-0.42418125" size="0.17018125" layer="21" font="vector">/Users/chrisbuckner/badges/charbadge/char5in_mask_new_no tail_bmp_silk.bmp</text>
 <rectangle x1="39.07281875" y1="26.797" x2="41.61281875" y2="26.88158125" layer="1"/>
 <rectangle x1="51.435" y1="26.797" x2="56.43118125" y2="26.88158125" layer="1"/>
 <rectangle x1="39.07281875" y1="26.88158125" x2="41.61281875" y2="26.96641875" layer="1"/>
@@ -9201,9 +9199,8 @@
 <rectangle x1="29.591" y1="101.981" x2="38.735" y2="102.06558125" layer="1"/>
 <rectangle x1="29.591" y1="102.06558125" x2="38.735" y2="102.15041875" layer="1"/>
 <rectangle x1="29.591" y1="102.15041875" x2="38.735" y2="102.235" layer="1"/>
-<text x="0" y="-0.42418125" size="0.17018125" layer="1" font="vector">/Users/chrisbuckner/badges/charbadge/char5in_mask_new_no tail_bmp.bmp</text>
 <circle x="64.170915625" y="60.5306125" radius="71.61568125" width="0.1524" layer="20"/>
-<text x="35.13315625" y="9.227740625" size="1.27" layer="21" font="vector">https://github.com/littlefoot22/badges/tree/master/charbadge</text>
+<text x="37.080296875" y="8.719790625" size="1.27" layer="21" font="vector">https://github.com/littlefoot22/badges/tree/master/charbadge</text>
 </plain>
 <libraries>
 <library name="SparkFun-Batteries" urn="urn:adsk.eagle:library:508">
@@ -9595,7 +9592,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="BATT-09031" x="111.068896875" y="32.93318125" size="1.778" layer="28" rot="MR89.9" display="off"/>
 <attribute name="SF_SKU" value="PRT-00783" x="111.068896875" y="32.93318125" size="1.778" layer="28" rot="MR89.9" display="off"/>
 </element>
-<element name="S1" library="adafruit" package="EG1218" value="" x="38.00785" y="3.219553125" rot="R179.7"/>
+<element name="S1" library="adafruit" package="EG1218" value="" x="62.47406875" y="3.304209375" rot="R179.7"/>
 <element name="U1" library="_hhn_attiny25_45_85" package="PDIP08_300MIL" value="ATTINY85-20P" x="22.601325" y="16.595803125" rot="R90"/>
 <element name="LED1" library="adafruit" package="LED5MM" value="" x="14.8151875" y="68.996425" rot="R269.9"/>
 <element name="LED2" library="adafruit" package="LED5MM" value="" x="11.85214375" y="57.990871875" rot="R270.2"/>
@@ -9618,9 +9615,9 @@ design rules under a new name.</description>
 <signal name="N$3">
 <contactref element="S1" pad="O"/>
 <contactref element="BT1" pad="2"/>
-<wire x1="89.49528125" y1="3.19535" x2="40.63766875" y2="3.19535" width="0.1524" layer="1"/>
+<wire x1="89.49528125" y1="3.19535" x2="65.80156875" y2="3.19535" width="0.1524" layer="1"/>
 <wire x1="111.083121875" y1="24.783190625" x2="89.49528125" y2="3.19535" width="0.1524" layer="1"/>
-<wire x1="40.63766875" y1="3.19535" x2="40.5478125" y2="3.206253125" width="0.1524" layer="1"/>
+<wire x1="65.80156875" y1="3.19535" x2="65.01403125" y2="3.290909375" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="U1" pad="4"/>
@@ -9644,19 +9641,15 @@ design rules under a new name.</description>
 <signal name="N$6">
 <contactref element="U1" pad="8"/>
 <contactref element="S1" pad="P"/>
-<wire x1="34.367546875" y1="6.85985625" x2="28.1036" y2="6.85985625" width="0.1524" layer="1"/>
-<wire x1="31.619646875" y1="3.343809375" x2="28.1036" y2="6.85985625" width="0.1524" layer="1"/>
+<wire x1="62.43446875" y1="3.343809375" x2="28.360496875" y2="3.343809375" width="0.1524" layer="1"/>
 <contactref element="R2" pad="P$2"/>
 <contactref element="R4" pad="P$2"/>
 <contactref element="R1" pad="P$2"/>
 <contactref element="R3" pad="P$2"/>
 <wire x1="26.455496875" y1="3.343809375" x2="18.791325" y2="11.00798125" width="0.1524" layer="1"/>
-<wire x1="31.619646875" y1="3.343809375" x2="28.360496875" y2="3.343809375" width="0.1524" layer="1"/>
 <wire x1="28.360496875" y1="3.343809375" x2="28.23331875" y2="3.343809375" width="0.1524" layer="1"/>
-<wire x1="24.97416875" y1="3.343809375" x2="23.323140625" y2="3.343809375" width="0.1524" layer="1"/>
-<wire x1="23.873609375" y1="3.894278125" x2="23.323140625" y2="3.343809375" width="0.1524" layer="1"/>
-<wire x1="23.873609375" y1="3.894278125" x2="6.687996875" y2="21.079890625" width="0.1524" layer="1"/>
-<wire x1="6.687996875" y1="21.079890625" x2="6.687996875" y2="42.498415625" width="0.1524" layer="1"/>
+<wire x1="24.0007875" y1="3.343809375" x2="6.687996875" y2="20.6566" width="0.1524" layer="1"/>
+<wire x1="6.687996875" y1="20.6566" x2="6.687996875" y2="42.498415625" width="0.1524" layer="1"/>
 <wire x1="6.687996875" y1="42.498415625" x2="6.687996875" y2="42.66773125" width="0.1524" layer="1"/>
 <wire x1="6.687996875" y1="42.66773125" x2="6.687996875" y2="51.641121875" width="0.1524" layer="1"/>
 <wire x1="6.687996875" y1="42.66773125" x2="6.687996875" y2="42.66773125" width="0.1524" layer="1"/>
@@ -9673,13 +9666,14 @@ design rules under a new name.</description>
 <wire x1="22.434425" y1="66.456684375" x2="22.434425" y2="50.118034375" width="0.1524" layer="1"/>
 <wire x1="19.132753125" y1="63.49403125" x2="19.132753125" y2="73.144684375" width="0.1524" layer="1"/>
 <wire x1="19.132753125" y1="73.144684375" x2="19.2174125" y2="73.22934375" width="0.1524" layer="1"/>
-<wire x1="38.00785" y1="3.219553125" x2="34.367546875" y2="6.85985625" width="0.1524" layer="1"/>
+<wire x1="62.47406875" y1="3.304209375" x2="62.43446875" y2="3.343809375" width="0.1524" layer="1"/>
 <wire x1="26.455496875" y1="3.343809375" x2="26.413359375" y2="3.343809375" width="0.1524" layer="1"/>
 <wire x1="26.413359375" y1="3.343809375" x2="24.97416875" y2="3.343809375" width="0.1524" layer="1"/>
 <wire x1="18.791325" y1="11.00798125" x2="18.791325" y2="12.785803125" width="0.1524" layer="1"/>
 <wire x1="28.360496875" y1="3.343809375" x2="26.413359375" y2="3.343809375" width="0.1524" layer="1"/>
 <wire x1="2.878378125" y1="62.477753125" x2="6.18005" y2="65.779425" width="0.1524" layer="1"/>
 <wire x1="22.434425" y1="50.118034375" x2="22.51908125" y2="50.033378125" width="0.1524" layer="1"/>
+<wire x1="24.97416875" y1="3.343809375" x2="24.0007875" y2="3.343809375" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U1" pad="6"/>
