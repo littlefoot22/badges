@@ -9722,7 +9722,7 @@ design rules under a new name.</description>
 <wire x1="16.846978125" y1="53.58825625" x2="19.132753125" y2="55.87403125" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$11">
-<via x="66.033396875" y="128.426490625" extent="1-16" drill="1"/>
+<via x="65.610103125" y="128.680465625" extent="1-16" drill="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
