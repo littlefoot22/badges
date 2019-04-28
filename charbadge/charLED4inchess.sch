@@ -3139,7 +3139,7 @@ LED</description>
 <instances>
 <instance part="U1" gate="G$1" x="63.5" y="60.96"/>
 <instance part="S1" gate="1" x="30.48" y="27.94" rot="R180"/>
-<instance part="BT1" gate="G$1" x="35.56" y="-12.7"/>
+<instance part="BT1" gate="G$1" x="35.56" y="-10.16"/>
 <instance part="LED1" gate="G$1" x="106.68" y="71.12"/>
 <instance part="LED2" gate="G$1" x="116.84" y="71.12"/>
 <instance part="D1" gate="G$1" x="127" y="71.12"/>
@@ -3152,7 +3152,7 @@ LED</description>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="48.26" y1="53.34" x2="40.64" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="BT1" gate="G$1" pin="-"/>
-<wire x1="40.64" y1="-12.7" x2="40.64" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-10.16" x2="40.64" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -3200,7 +3200,7 @@ LED</description>
 <segment>
 <pinref part="BT1" gate="G$1" pin="+"/>
 <pinref part="S1" gate="1" pin="O"/>
-<wire x1="30.48" y1="-12.7" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-10.16" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

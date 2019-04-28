@@ -3139,7 +3139,7 @@ LED</description>
 <instances>
 <instance part="U1" gate="G$1" x="63.5" y="60.96"/>
 <instance part="S1" gate="1" x="30.48" y="27.94" rot="R180"/>
-<instance part="BT1" gate="G$1" x="35.56" y="-12.7" rot="R180"/>
+<instance part="BT1" gate="G$1" x="35.56" y="-12.7"/>
 <instance part="LED1" gate="G$1" x="106.68" y="71.12"/>
 <instance part="LED2" gate="G$1" x="116.84" y="71.12"/>
 <instance part="D1" gate="G$1" x="127" y="71.12"/>
@@ -3147,18 +3147,11 @@ LED</description>
 <busses>
 </busses>
 <nets>
-<net name="N$3" class="0">
-<segment>
-<pinref part="S1" gate="1" pin="O"/>
-<pinref part="BT1" gate="G$1" pin="-"/>
-<wire x1="30.48" y1="-12.7" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="48.26" y1="53.34" x2="40.64" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="BT1" gate="G$1" pin="+"/>
+<pinref part="BT1" gate="G$1" pin="-"/>
 <wire x1="40.64" y1="-12.7" x2="40.64" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3201,6 +3194,13 @@ LED</description>
 <junction x="106.68" y="55.88"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="BT1" gate="G$1" pin="+"/>
+<pinref part="S1" gate="1" pin="O"/>
+<wire x1="30.48" y1="-12.7" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

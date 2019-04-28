@@ -2547,7 +2547,6 @@ BATTERY</description>
 <part name="LED1" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LED2" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LED3" library="adafruit" deviceset="LED" device="5MM"/>
-<part name="LED4" library="adafruit" deviceset="LED" device="5MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -2560,7 +2559,6 @@ BATTERY</description>
 <instance part="LED1" gate="G$1" x="106.68" y="71.12"/>
 <instance part="LED2" gate="G$1" x="116.84" y="71.12"/>
 <instance part="LED3" gate="G$1" x="127" y="71.12"/>
-<instance part="LED4" gate="G$1" x="137.16" y="71.12"/>
 </instances>
 <busses>
 </busses>
@@ -2585,11 +2583,7 @@ BATTERY</description>
 <pinref part="U1" gate="G$1" pin="PB0"/>
 <wire x1="81.28" y1="53.34" x2="127" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="127" y1="53.34" x2="127" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="127" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
-<junction x="127" y="53.34"/>
-<wire x1="137.16" y1="53.34" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="C"/>
-<pinref part="LED4" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -2603,8 +2597,6 @@ BATTERY</description>
 <wire x1="27.94" y1="88.9" x2="106.68" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="88.9" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="88.9" x2="127" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="127" y1="88.9" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="86.36" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="106.68" y1="73.66" x2="106.68" y2="88.9" width="0.1524" layer="91"/>
 <junction x="106.68" y="88.9"/>
@@ -2613,9 +2605,6 @@ BATTERY</description>
 <junction x="116.84" y="88.9"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="127" y1="73.66" x2="127" y2="88.9" width="0.1524" layer="91"/>
-<junction x="127" y="88.9"/>
-<pinref part="LED4" gate="G$1" pin="A"/>
-<wire x1="137.16" y1="73.66" x2="137.16" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
