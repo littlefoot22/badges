@@ -5944,7 +5944,10 @@ design rules under a new name.</description>
 <contactref element="U1" pad="4"/>
 <wire x1="37.288696875" y1="56.712090625" x2="37.8661125" y2="57.28950625" width="0.1524" layer="16"/>
 <contactref element="BT1" pad="2"/>
-<wire x1="40.791296875" y1="14.898925" x2="37.288696875" y2="56.712090625" width="0" layer="19" extent="16-16"/>
+<wire x1="37.8661125" y1="57.28950625" x2="35.81041875" y2="55.2338125" width="0.1524" layer="16"/>
+<wire x1="35.81041875" y1="55.2338125" x2="35.81041875" y2="19.386728125" width="0.1524" layer="16"/>
+<wire x1="35.81041875" y1="19.386728125" x2="40.298221875" y2="14.898925" width="0.1524" layer="16"/>
+<wire x1="40.298221875" y1="14.898925" x2="40.791296875" y2="14.898925" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="U1" pad="5"/>

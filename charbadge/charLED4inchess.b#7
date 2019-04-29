@@ -5927,9 +5927,9 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="BT1" library="SparkFun-Batteries" library_urn="urn:adsk.eagle:library:508" package="BATTCOM_20MM_PTH" package3d_urn="urn:adsk.eagle:package:37214/1" value="" x="48.5064875" y="17.525390625" rot="MR341.2">
-<attribute name="PROD_ID" value="BATT-09031" x="48.5064875" y="17.525390625" size="1.778" layer="28" rot="MR341.2" display="off"/>
-<attribute name="SF_SKU" value="PRT-00783" x="48.5064875" y="17.525390625" size="1.778" layer="28" rot="MR341.2" display="off"/>
+<element name="BT1" library="SparkFun-Batteries" library_urn="urn:adsk.eagle:library:508" package="BATTCOM_20MM_PTH" package3d_urn="urn:adsk.eagle:package:37214/1" value="" x="48.5064875" y="17.525390625" rot="MR161.2">
+<attribute name="PROD_ID" value="BATT-09031" x="48.5064875" y="17.525390625" size="1.778" layer="28" rot="MR161.2" display="off"/>
+<attribute name="SF_SKU" value="PRT-00783" x="48.5064875" y="17.525390625" size="1.778" layer="28" rot="MR161.2" display="off"/>
 </element>
 <element name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED_3MM" package3d_urn="urn:adsk.eagle:package:39361/1" value="" x="55.870346875" y="40.893465625" rot="MR44.8">
 <attribute name="PROD_ID" value="DIO-08794" x="55.870346875" y="40.893465625" size="1.778" layer="28" rot="MR44.8" display="off"/>
@@ -5940,17 +5940,11 @@ design rules under a new name.</description>
 <element name="U1" library="_hhn_attiny25_45_85" package="PDIP08_300MIL" value="ATTINY85-20P" x="41.649421875" y="61.1260125" rot="R270.4"/>
 </elements>
 <signals>
-<signal name="N$3">
-<contactref element="S1" pad="O"/>
-<contactref element="BT1" pad="2"/>
-<wire x1="56.22168125" y1="20.151853125" x2="64.55569375" y2="20.151853125" width="0.1524" layer="16"/>
-<wire x1="64.55569375" y1="20.151853125" x2="67.970578125" y2="23.5667375" width="0.1524" layer="16"/>
-</signal>
 <signal name="N$5">
 <contactref element="U1" pad="4"/>
-<contactref element="BT1" pad="1"/>
-<wire x1="37.288696875" y1="13.706540625" x2="37.288696875" y2="56.712090625" width="0.1524" layer="16"/>
 <wire x1="37.288696875" y1="56.712090625" x2="37.8661125" y2="57.28950625" width="0.1524" layer="16"/>
+<contactref element="BT1" pad="2"/>
+<wire x1="40.791296875" y1="14.898925" x2="37.288696875" y2="56.712090625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$4">
 <contactref element="U1" pad="5"/>
@@ -5996,6 +5990,12 @@ design rules under a new name.</description>
 <wire x1="15.831084375" y1="71.197546875" x2="48.59380625" y2="71.197546875" width="0.1524" layer="1"/>
 <wire x1="8.379003125" y1="27.9407625" x2="3.851315625" y2="32.46845" width="0.1524" layer="1"/>
 <wire x1="3.851315625" y1="32.46845" x2="3.851315625" y2="42.201475" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$2">
+<contactref element="BT1" pad="1"/>
+<contactref element="S1" pad="O"/>
+<wire x1="59.72428125" y1="21.3442375" x2="65.748078125" y2="21.3442375" width="0.1524" layer="16"/>
+<wire x1="65.748078125" y1="21.3442375" x2="67.970578125" y2="23.5667375" width="0.1524" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
