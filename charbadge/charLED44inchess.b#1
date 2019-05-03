@@ -7309,7 +7309,7 @@
 <rectangle x1="76.954303125" y1="51.472184375" x2="78.47815" y2="54.77385625" layer="21"/>
 <rectangle x1="76.615671875" y1="51.133553125" x2="78.054859375" y2="52.996034375" layer="21"/>
 <hole x="52.6574" y="106.161378125" drill="6.35"/>
-<text x="25.736090625" y="97.272275" size="1.27" layer="21" font="vector">https://github.com/littlefoot22/badges/tree/master/charbadge</text>
+<text x="25.65143125" y="97.272275" size="1.27" layer="21" font="vector">https://github.com/littlefoot22/badges/tree/master/charbadge</text>
 </plain>
 <libraries>
 <library name="SparkFun-Batteries" urn="urn:adsk.eagle:library:508">

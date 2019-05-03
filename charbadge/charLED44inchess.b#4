@@ -7730,7 +7730,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="DIO-08794" x="74.49515" y="54.354115625" size="1.778" layer="28" rot="MR62.8" display="off"/>
 </element>
 <element name="LED1" library="adafruit" package="LED5MM" value="" x="11.763678125" y="45.1254875" rot="R270"/>
-<element name="LED2" library="adafruit" package="LED5MM" value="" x="8.886953125" y="36.322053125" rot="R270"/>
+<element name="LED2" library="adafruit" package="LED5MM" value="" x="8.886953125" y="36.49136875" rot="R270"/>
 <element name="S1" library="adafruit" package="EG1218" value="" x="85.586265625" y="26.58623125" rot="R90"/>
 <element name="U1" library="_hhn_attiny25_45_85" package="PDIP08_300MIL" value="ATTINY85-20P" x="52.993621875" y="82.121253125" rot="R270"/>
 <element name="LED3" library="adafruit" package="LED5MM" value="" x="8.465825" y="52.911375" rot="R270"/>
@@ -7773,8 +7773,8 @@ design rules under a new name.</description>
 <wire x1="24.124284375" y1="58.163484375" x2="24.124284375" y2="58.163484375" width="0.1524" layer="16"/>
 <wire x1="24.124284375" y1="58.756090625" x2="24.124284375" y2="58.163484375" width="0.1524" layer="16"/>
 <wire x1="24.124284375" y1="43.934303125" x2="17.86288125" y2="37.6729" width="0.1524" layer="16"/>
-<wire x1="17.86288125" y1="37.6729" x2="8.9678" y2="37.6729" width="0.1524" layer="16"/>
-<wire x1="8.9678" y1="37.6729" x2="8.886953125" y2="37.592053125" width="0.1524" layer="16"/>
+<wire x1="17.86288125" y1="37.6729" x2="8.975421875" y2="37.6729" width="0.1524" layer="16"/>
+<wire x1="8.975421875" y1="37.6729" x2="8.886953125" y2="37.76136875" width="0.1524" layer="16"/>
 <wire x1="24.124284375" y1="58.75609375" x2="24.124284375" y2="58.163484375" width="0.1524" layer="16"/>
 <wire x1="24.1275875" y1="69.8431375" x2="8.465825" y2="54.181375" width="0.1524" layer="16"/>
 <wire x1="85.463028125" y1="55.578684375" x2="85.463028125" y2="57.271846875" width="0.1524" layer="16"/>
@@ -7797,8 +7797,8 @@ design rules under a new name.</description>
 <wire x1="3.894278125" y1="54.6045375" x2="3.894278125" y2="43.260340625" width="0.1524" layer="1"/>
 <wire x1="3.894278125" y1="43.260340625" x2="4.489425" y2="43.8554875" width="0.1524" layer="1"/>
 <wire x1="4.489425" y1="43.8554875" x2="11.763678125" y2="43.8554875" width="0.1524" layer="1"/>
-<wire x1="3.894278125" y1="43.260340625" x2="3.894278125" y2="40.044728125" width="0.1524" layer="1"/>
-<wire x1="3.894278125" y1="40.044728125" x2="8.886953125" y2="35.052053125" width="0.1524" layer="1"/>
+<wire x1="3.894278125" y1="43.260340625" x2="3.894278125" y2="40.21404375" width="0.1524" layer="1"/>
+<wire x1="3.894278125" y1="40.21404375" x2="8.886953125" y2="35.22136875" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="BT1" pad="1"/>
