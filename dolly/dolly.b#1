@@ -10919,7 +10919,7 @@ design rules under a new name.</description>
 <element name="LED2" library="adafruit" package="LED5MM" value="" x="24.633371875" y="-6.091196875" rot="R180"/>
 <element name="LED3" library="adafruit" package="LED5MM" value="" x="-7.3683125" y="66.968703125" rot="R90"/>
 <element name="LED4" library="adafruit" package="LED5MM" value="" x="-8.21629375" y="35.475596875" rot="R90"/>
-<element name="LED5" library="adafruit" package="LED5MM" value="" x="-7.536359375" y="98.88585625" rot="R90"/>
+<element name="LED5" library="adafruit" package="LED5MM" value="" x="-7.536359375" y="97.61585625" rot="R90"/>
 <element name="LED6" library="adafruit" package="LED5MM" value="" x="-7.368440625" y="134.272603125" rot="R90"/>
 <element name="LED7" library="adafruit" package="LED5MM" value="" x="32.504434375" y="134.780428125"/>
 <element name="LED8" library="adafruit" package="LED5MM" value="" x="75.004884375" y="135.035159375"/>
@@ -11011,8 +11011,8 @@ design rules under a new name.</description>
 <wire x1="103.36334375" y1="9.73569375" x2="103.193771875" y2="9.905265625" width="0.1524" layer="16"/>
 <wire x1="-7.3683125" y1="68.238703125" x2="3.724959375" y2="57.14543125" width="0.1524" layer="16"/>
 <wire x1="3.724959375" y1="57.14543125" x2="3.724959375" y2="30.39229375" width="0.1524" layer="16"/>
-<wire x1="-7.536359375" y1="100.15585625" x2="8.3811625" y2="84.238334375" width="0.1524" layer="16"/>
-<wire x1="8.3811625" y1="84.238334375" x2="8.3811625" y2="30.39229375" width="0.1524" layer="16"/>
+<wire x1="-7.536359375" y1="98.88585625" x2="8.3811625" y2="82.968334375" width="0.1524" layer="16"/>
+<wire x1="8.3811625" y1="82.968334375" x2="8.3811625" y2="30.39229375" width="0.1524" layer="16"/>
 <wire x1="-7.368440625" y1="135.542603125" x2="14.730528125" y2="113.443634375" width="0.1524" layer="16"/>
 <wire x1="14.730528125" y1="113.443634375" x2="14.730528125" y2="30.39229375" width="0.1524" layer="16"/>
 <wire x1="30.557040625" y1="131.563034375" x2="30.557040625" y2="30.3968625" width="0.1524" layer="16"/>
@@ -11156,8 +11156,8 @@ design rules under a new name.</description>
 <signal name="N$8">
 <contactref element="R5" pad="P$1"/>
 <contactref element="LED5" pad="A"/>
-<wire x1="-12.788596875" y1="83.386546875" x2="-12.788596875" y2="92.36361875" width="0.1524" layer="1"/>
-<wire x1="-12.788596875" y1="92.36361875" x2="-7.536359375" y2="97.61585625" width="0.1524" layer="1"/>
+<wire x1="-12.788596875" y1="83.386546875" x2="-12.788596875" y2="91.09361875" width="0.1524" layer="1"/>
+<wire x1="-12.788596875" y1="91.09361875" x2="-7.536359375" y2="96.34585625" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="R6" pad="P$1"/>
