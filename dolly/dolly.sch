@@ -2934,7 +2934,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="LED5" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LED6" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LED7" library="adafruit" deviceset="LED" device="5MM"/>
-<part name="LED8" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LED9" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LED10" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LED11" library="adafruit" deviceset="LED" device="5MM"/>
@@ -2955,6 +2954,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="R13" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="10k"/>
 <part name="R14" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="10k"/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="10k"/>
+<part name="LED8" library="adafruit" deviceset="LED" device="5MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -2971,7 +2971,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <instance part="LED5" gate="G$1" x="104.14" y="81.28"/>
 <instance part="LED6" gate="G$1" x="116.84" y="81.28"/>
 <instance part="LED7" gate="G$1" x="129.54" y="81.28"/>
-<instance part="LED8" gate="G$1" x="142.24" y="81.28"/>
 <instance part="LED9" gate="G$1" x="154.94" y="81.28"/>
 <instance part="LED10" gate="G$1" x="170.18" y="81.28"/>
 <instance part="LED11" gate="G$1" x="185.42" y="81.28"/>
@@ -2992,6 +2991,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <instance part="R13" gate="G$1" x="213.36" y="91.44" rot="R90"/>
 <instance part="R14" gate="G$1" x="228.6" y="91.44" rot="R90"/>
 <instance part="R1" gate="G$1" x="58.42" y="91.44" rot="R90"/>
+<instance part="LED8" gate="G$1" x="142.24" y="81.28"/>
 </instances>
 <busses>
 </busses>
@@ -3047,9 +3047,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="LED9" gate="G$1" pin="C"/>
 <wire x1="154.94" y1="76.2" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
 <junction x="154.94" y="63.5"/>
-<pinref part="LED8" gate="G$1" pin="C"/>
-<wire x1="142.24" y1="76.2" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
-<junction x="142.24" y="63.5"/>
 <pinref part="LED7" gate="G$1" pin="C"/>
 <wire x1="129.54" y1="76.2" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
 <junction x="129.54" y="63.5"/>
@@ -3062,6 +3059,9 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="LED4" gate="G$1" pin="C"/>
 <pinref part="LED14" gate="G$1" pin="C"/>
 <wire x1="228.6" y1="63.5" x2="228.6" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="LED8" gate="G$1" pin="C"/>
+<wire x1="142.24" y1="76.2" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
+<junction x="142.24" y="63.5"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -3171,13 +3171,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="129.54" y1="86.36" x2="129.54" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="LED8" gate="G$1" pin="A"/>
-<wire x1="142.24" y1="86.36" x2="142.24" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
@@ -3232,6 +3225,13 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="58.42" y1="86.36" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="LED8" gate="G$1" pin="A"/>
+<wire x1="142.24" y1="86.36" x2="142.24" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

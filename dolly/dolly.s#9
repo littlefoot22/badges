@@ -3095,6 +3095,8 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="96.52" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
 <junction x="78.74" y="99.06"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="96.52" x2="228.6" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="96.52" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
 <junction x="213.36" y="99.06"/>
@@ -3125,8 +3127,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="96.52" x2="91.44" y2="99.06" width="0.1524" layer="91"/>
 <junction x="91.44" y="99.06"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="96.52" x2="228.6" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -3222,9 +3222,9 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="LED14" gate="G$1" pin="A"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="83.82" x2="228.6" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="LED14" gate="G$1" pin="A"/>
+<wire x1="228.6" y1="86.36" x2="228.6" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
