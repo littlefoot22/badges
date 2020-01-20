@@ -5622,8 +5622,8 @@ design rules under a new name.</description>
 <element name="D17" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED_3MM" package3d_urn="urn:adsk.eagle:package:39361/1" value="" x="22.339353125" y="10.74613125" rot="R92.4">
 <attribute name="PROD_ID" value="DIO-08794" x="14.9387625" y="5.351490625" size="1.778" layer="27" rot="R92.4" display="off"/>
 </element>
-<element name="D18" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED_3MM" package3d_urn="urn:adsk.eagle:package:39361/1" value="" x="27.842134375" y="18.026103125" rot="R92.5">
-<attribute name="PROD_ID" value="DIO-08794" x="14.328603125" y="7.2664125" size="1.778" layer="27" rot="R92.5" display="off"/>
+<element name="D18" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED_3MM" package3d_urn="urn:adsk.eagle:package:39361/1" value="" x="27.842134375" y="17.772128125" rot="R92.5">
+<attribute name="PROD_ID" value="DIO-08794" x="14.328603125" y="7.0124375" size="1.778" layer="27" rot="R92.5" display="off"/>
 </element>
 </elements>
 <signals>
@@ -5705,7 +5705,7 @@ design rules under a new name.</description>
 <contactref element="U1" pad="5"/>
 <contactref element="D17" pad="K"/>
 <contactref element="D18" pad="K"/>
-<wire x1="22.28616875" y1="12.015015625" x2="27.7867375" y2="19.29489375" width="0" layer="19" extent="1-1"/>
+<wire x1="22.28616875" y1="12.015015625" x2="27.7867375" y2="19.04091875" width="0" layer="19" extent="1-1"/>
 <wire x1="-45.72" y1="10.16" x2="22.28616875" y2="12.015015625" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
