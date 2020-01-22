@@ -5640,15 +5640,19 @@ design rules under a new name.</description>
 <signal name="N$5">
 <contactref element="U1" pad="4"/>
 <contactref element="BT1" pad="2"/>
-<wire x1="4.3995625" y1="-18.561815625" x2="38.4294875" y2="-15.238221875" width="0" layer="19" extent="1-1"/>
+<wire x1="38.4294875" y1="-15.238221875" x2="38.4294875" y2="-22.349765625" width="0.1524" layer="16"/>
+<wire x1="38.4294875" y1="-22.349765625" x2="4.402225" y2="-22.349765625" width="0.1524" layer="16"/>
+<wire x1="4.402225" y1="-18.561815625" x2="4.3995625" y2="-18.561815625" width="0.1524" layer="16"/>
+<wire x1="4.402225" y1="-22.349765625" x2="4.402225" y2="-18.561815625" width="0.1524" layer="16"/>
+<wire x1="4.402225" y1="-18.561815625" x2="4.3995625" y2="-18.561815625" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="BT1" pad="1"/>
 <contactref element="S1" pad="O"/>
-<wire x1="4.3995625" y1="1.438184375" x2="4.3995625" y2="94.19344375" width="0.1524" layer="16"/>
-<wire x1="4.3995625" y1="94.19344375" x2="3.77848125" y2="94.19344375" width="0.1524" layer="16"/>
-<wire x1="3.77848125" y1="94.19344375" x2="3.77848125" y2="97.78504375" width="0.1524" layer="16"/>
-<wire x1="3.77848125" y1="97.78504375" x2="33.689265625" y2="97.78504375" width="0.1524" layer="16"/>
+<wire x1="4.822853125" y1="1.861475" x2="4.822853125" y2="97.83374375" width="0.1524" layer="16"/>
+<wire x1="4.822853125" y1="97.83374375" x2="33.640565625" y2="97.83374375" width="0.1524" layer="16"/>
+<wire x1="33.640565625" y1="97.83374375" x2="33.689265625" y2="97.78504375" width="0.1524" layer="16"/>
+<wire x1="4.3995625" y1="1.438184375" x2="4.822853125" y2="1.861475" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$31">
 <contactref element="U1" pad="8"/>
@@ -5851,7 +5855,7 @@ design rules under a new name.</description>
 <via x="25.65143125" y="91.68483125" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$10">
-<via x="35.387128125" y="87.197946875" extent="1-16" drill="0.35"/>
+<via x="34.87918125" y="87.197946875" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$11">
 <via x="43.26034375" y="93.37799375" extent="1-16" drill="0.35"/>
@@ -5896,7 +5900,7 @@ design rules under a new name.</description>
 <via x="-2.4550875" y="43.768290625" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$32">
-<via x="3.4709875" y="37.249609375" extent="1-16" drill="0.35"/>
+<via x="2.878378125" y="37.334265625" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$33">
 <via x="-0.50795" y="20.995234375" extent="1-16" drill="0.35"/>
@@ -5908,13 +5912,13 @@ design rules under a new name.</description>
 <via x="33.52464375" y="29.88434375" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$36">
-<via x="35.30246875" y="38.942775" extent="1-16" drill="0.35"/>
+<via x="34.9638375" y="38.942775" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$37">
 <via x="46.054059375" y="49.271071875" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$38">
-<via x="5.248809375" y="27.68323125" extent="1-16" drill="0.35"/>
+<via x="5.6721" y="27.68323125" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$39">
 <via x="-3.2170125" y="8.042528125" extent="1-16" drill="0.35"/>
@@ -5923,7 +5927,7 @@ design rules under a new name.</description>
 <via x="3.301671875" y="14.730525" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$41">
-<via x="13.20668125" y="13.375996875" extent="1-16" drill="0.35"/>
+<via x="12.44475625" y="12.614071875" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$42">
 <via x="30.222978125" y="41.313203125" extent="1-16" drill="0.35"/>
