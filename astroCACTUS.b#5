@@ -5602,8 +5602,8 @@ design rules under a new name.</description>
 <element name="D11" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED_3MM" package3d_urn="urn:adsk.eagle:package:39361/1" value="" x="13.8735375" y="1.862096875" rot="R267.5">
 <attribute name="PROD_ID" value="DIO-08794" x="21.707871875" y="6.60488125" size="1.778" layer="27" rot="R267.5" display="off"/>
 </element>
-<element name="D12" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED_3MM" package3d_urn="urn:adsk.eagle:package:39361/1" value="" x="21.66208125" y="-2.710075" rot="R267.5">
-<attribute name="PROD_ID" value="DIO-08794" x="29.496415625" y="2.032709375" size="1.778" layer="27" rot="R267.5" display="off"/>
+<element name="D12" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED_3MM" package3d_urn="urn:adsk.eagle:package:39361/1" value="" x="21.66208125" y="-2.11746875" rot="R267.5">
+<attribute name="PROD_ID" value="DIO-08794" x="29.496415625" y="2.625315625" size="1.778" layer="27" rot="R267.5" display="off"/>
 </element>
 <element name="D13" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED_3MM" package3d_urn="urn:adsk.eagle:package:39361/1" value="" x="27.757471875" y="0.336975" rot="R271.2">
 <attribute name="PROD_ID" value="DIO-08794" x="35.269415625" y="5.575440625" size="1.778" layer="27" rot="R271.2" display="off"/>
@@ -5730,7 +5730,7 @@ design rules under a new name.</description>
 <wire x1="25.46690625" y1="-14.56073125" x2="36.14905" y2="-14.56073125" width="0.1524" layer="16"/>
 <wire x1="36.14905" y1="-14.56073125" x2="36.14905" y2="-3.894278125" width="0.1524" layer="16"/>
 <wire x1="36.14905" y1="-3.894278125" x2="36.14905" y2="-0.761421875" width="0.1524" layer="16"/>
-<wire x1="21.717475" y1="-1.44128125" x2="21.717475" y2="1.10055625" width="0.1524" layer="16"/>
+<wire x1="21.717475" y1="-0.848675" x2="21.717475" y2="1.10055625" width="0.1524" layer="16"/>
 <wire x1="18.878778125" y1="-6.434021875" x2="18.878778125" y2="1.10055625" width="0.1524" layer="16"/>
 <wire x1="14.476553125" y1="13.96860625" x2="14.476553125" y2="9.64578125" width="0.1524" layer="16"/>
 <wire x1="14.476553125" y1="3.678509375" x2="13.92893125" y2="3.1308875" width="0.1524" layer="16"/>
@@ -5800,10 +5800,11 @@ design rules under a new name.</description>
 <wire x1="24.804853125" y1="2.9630375" x2="30.13831875" y2="2.9630375" width="0.1524" layer="1"/>
 <wire x1="24.804853125" y1="0.593303125" x2="24.804853125" y2="0.677265625" width="0.1524" layer="1"/>
 <wire x1="24.804853125" y1="0.677265625" x2="24.804853125" y2="2.9630375" width="0.1524" layer="1"/>
-<wire x1="21.606684375" y1="-3.978865625" x2="23.788953125" y2="-3.978865625" width="0.1524" layer="1"/>
+<wire x1="21.606684375" y1="-3.386259375" x2="23.788953125" y2="-3.386259375" width="0.1524" layer="1"/>
 <wire x1="23.788953125" y1="-3.978865625" x2="24.804853125" y2="-3.978865625" width="0.1524" layer="1"/>
 <wire x1="24.804853125" y1="-3.978865625" x2="24.804853125" y2="0.677265625" width="0.1524" layer="1"/>
 <wire x1="25.398125" y1="-8.130825" x2="23.788953125" y2="-8.130825" width="0.1524" layer="1"/>
+<wire x1="23.788953125" y1="-3.978865625" x2="23.788953125" y2="-3.386259375" width="0.1524" layer="1"/>
 <wire x1="23.788953125" y1="-8.130825" x2="23.788953125" y2="-3.978865625" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$4">
