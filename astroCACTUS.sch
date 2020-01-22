@@ -2010,16 +2010,43 @@ LED</description>
 <wire x1="137.16" y1="86.36" x2="144.78" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="86.36" x2="144.78" y2="53.34" width="0.1524" layer="91"/>
 <junction x="137.16" y="86.36"/>
-<pinref part="D11" gate="G$1" pin="A"/>
-<wire x1="144.78" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="D7" gate="G$1" pin="A"/>
 <wire x1="144.78" y1="53.34" x2="144.78" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="35.56" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
-<junction x="144.78" y="53.34"/>
 <wire x1="144.78" y1="35.56" x2="144.78" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="D16" gate="G$1" pin="A"/>
+<wire x1="137.16" y1="53.34" x2="144.78" y2="53.34" width="0.1524" layer="91"/>
+<junction x="144.78" y="53.34"/>
+<pinref part="D15" gate="G$1" pin="A"/>
+<wire x1="137.16" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
+<junction x="137.16" y="53.34"/>
+<pinref part="D14" gate="G$1" pin="A"/>
+<wire x1="121.92" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
+<junction x="121.92" y="53.34"/>
+<pinref part="D13" gate="G$1" pin="A"/>
+<wire x1="106.68" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
+<junction x="106.68" y="53.34"/>
+<pinref part="D12" gate="G$1" pin="A"/>
+<wire x1="93.98" y1="53.34" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
+<junction x="93.98" y="53.34"/>
+<pinref part="D11" gate="G$1" pin="A"/>
+<wire x1="78.74" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
+<junction x="78.74" y="53.34"/>
+<pinref part="D10" gate="G$1" pin="A"/>
+<wire x1="106.68" y1="35.56" x2="144.78" y2="35.56" width="0.1524" layer="91"/>
 <junction x="144.78" y="35.56"/>
+<pinref part="D9" gate="G$1" pin="A"/>
+<wire x1="106.68" y1="35.56" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
+<junction x="106.68" y="35.56"/>
+<pinref part="D8" gate="G$1" pin="A"/>
+<wire x1="93.98" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
+<junction x="93.98" y="35.56"/>
+<pinref part="D7" gate="G$1" pin="A"/>
+<wire x1="78.74" y1="35.56" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
+<junction x="78.74" y="35.56"/>
+<pinref part="D18" gate="G$1" pin="A"/>
+<wire x1="78.74" y1="20.32" x2="144.78" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="D17" gate="G$1" pin="A"/>
-<wire x1="144.78" y1="20.32" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="20.32" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
+<junction x="78.74" y="20.32"/>
 </segment>
 </net>
 <net name="N$1" class="0">

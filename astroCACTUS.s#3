@@ -2007,6 +2007,19 @@ LED</description>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="63.5" y1="73.66" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
 <junction x="63.5" y="86.36"/>
+<wire x1="137.16" y1="86.36" x2="144.78" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="86.36" x2="144.78" y2="53.34" width="0.1524" layer="91"/>
+<junction x="137.16" y="86.36"/>
+<pinref part="D11" gate="G$1" pin="A"/>
+<wire x1="144.78" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="D7" gate="G$1" pin="A"/>
+<wire x1="144.78" y1="53.34" x2="144.78" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="35.56" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
+<junction x="144.78" y="53.34"/>
+<pinref part="D17" gate="G$1" pin="A"/>
+<wire x1="144.78" y1="35.56" x2="144.78" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="20.32" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
+<junction x="144.78" y="35.56"/>
 </segment>
 </net>
 <net name="N$1" class="0">

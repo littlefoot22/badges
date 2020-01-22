@@ -2018,6 +2018,8 @@ LED</description>
 <junction x="144.78" y="53.34"/>
 <wire x1="144.78" y1="35.56" x2="144.78" y2="20.32" width="0.1524" layer="91"/>
 <junction x="144.78" y="35.56"/>
+<pinref part="D17" gate="G$1" pin="A"/>
+<wire x1="144.78" y1="20.32" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
